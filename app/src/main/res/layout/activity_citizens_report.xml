@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:background="@color/background_color"
+    tools:context=".Common.CitizensReportActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Citizens Report"
+        android:textSize="20sp"
+        android:id="@+id/titleOfCitizens"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Report of Citizens"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:id="@+id/generateCitizensReport"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/citizensRecyclerView"/>
+
+
+</LinearLayout>

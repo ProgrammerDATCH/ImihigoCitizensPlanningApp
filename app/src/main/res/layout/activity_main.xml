@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background_color"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="IMIHIGO AWARENESS TO THE CITIZENS"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:layout_margin="5dp"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Welcome to Imihigo Awareness to the Citizens\n\nUnlock the power to shape the future of Huye District!\n\nWe believe that every citizen has the right to contribute to the growth and development of their community. Imihigo Awareness to the Citizens is your gateway to participate actively in the planning and progress of Huye District.\n\nYour Voice Matters: With this app, you can suggest plans and ideas that will be considered during the district\'s planning process. Your ideas can be the spark that ignites positive change!\n\nStay Informed: Keep track of the plans that have been selected and see how they\'re progressing. Stay updated with the latest developments and accomplishments within your community.\n\nTogether, We Build: Let's work together to create a brighter and better future for Huye District. Imihigo Awareness to the Citizens is the platform where your vision meets action.\n\nThank you for joining us on this journey of civic engagement and community building. Your active involvement will help Huye District thrive. Let's make a difference, one plan at a time!\n\nStart sharing your ideas and be a part of the change today!"
+            />
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:id="@+id/adminLogin"
+            android:layout_marginLeft="10dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGIST"
+            android:id="@+id/citizenRegist"
+            android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "944696945347",
+    "project_id": "imihigo-citizens-planning-app",
+    "storage_bucket": "imihigo-citizens-planning-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944696945347:android:fc511f4dbee1ba8128d076",
+        "android_client_info": {
+          "package_name": "com.imihigocizitensplanning.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ6lmCaDMyJ82kk7OJ9t531i9FO8iKGz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

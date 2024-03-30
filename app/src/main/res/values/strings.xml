@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Imihigo Awareness To The Citizens</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="before_suggest_text">Provide a suggestion Plan to Huye District...</string>
+    <string-array name="plan_season">
+        <item>Selecting Plans</item>
+        <item>Implementing Plans</item>
+    </string-array>
+    <string-array name="user_categories">
+        <item>Citizen</item>
+        <item>Cell Leader</item>
+        <item>Sector Leader</item>
+        <item>District Leader</item>
+    </string-array>
+    <string-array name="plan_categories">
+        <item>IMIYOBORERE MYIZA</item>
+        <item>ITERAMBERE RY\'UBUKUNGU</item>
+        <item>IMIBEREHO MYIZA</item>
+    </string-array>
+
+</resources>

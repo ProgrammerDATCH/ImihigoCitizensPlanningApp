@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    tools:context=".Cell.CellActivity"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="CELL DASHBOARD"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_marginBottom="10dp"
+        android:padding="2dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="User: None"
+            android:textAlignment="textStart"
+            android:layout_marginRight="5dp"
+            android:id="@+id/currentUserNames"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Sector: xxx"
+            android:textAlignment="center"
+            android:layout_marginRight="5dp"
+            android:id="@+id/currentUserSector"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Cell: xxx"
+            android:textAlignment="textEnd"
+            android:layout_marginRight="5dp"
+            android:id="@+id/currentUserCell"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_marginBottom="15dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textAlignment="center"
+            android:layout_marginRight="5dp"
+            android:id="@+id/cellLogoutBtn"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@color/button_color"
+        app:tabTextColor="@color/background_color"
+        app:tabSelectedTextColor="@color/white"
+        android:id="@+id/cellTabLayout"/>
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.5"
+        android:id="@+id/cellViewPager"/>
+
+</LinearLayout>
